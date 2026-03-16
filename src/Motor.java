@@ -25,8 +25,7 @@ public class Motor {
     }
 
     public String toString() {
-        return "Motor{" +
-                "potencia=" + potencia +
+        return  "potencia=" + potencia +
                 ", tipoCombustivel='" + tipoCombustivel + '\'' +
                 '}';
     }
