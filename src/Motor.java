@@ -25,9 +25,9 @@ public class Motor {
     }
 
     public String toString() {
-        return  "potencia=" + potencia +
-                ", tipoCombustivel='" + tipoCombustivel + '\'' +
-                '}';
+        return  "\npotencia=" + potencia +
+                "\ntipoCombustivel='" + tipoCombustivel ;
+                
     }
 
 }

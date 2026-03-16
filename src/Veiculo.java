@@ -14,7 +14,7 @@ public class Veiculo  {
         this.porta = porta;
     }
 
-    
+
     public String getPlaca() {
         return placa;
     }
@@ -47,14 +47,13 @@ public class Veiculo  {
     }       
 
     public String toString() {
-        return "Veiculo{" +
-                "placa='" + placa + '\'' +
-                ", cor='" + cor + '\'' +
-                ", motor=" + motor +
-                ", roda=" + roda +
-                ", porta=" + porta +
-                '}';
-    }
+        return "Veiculo" +
+                "\nplaca='" + placa + '\'' +
+                "\ncor='" + cor + '\'' +
+                "\nmotor=" + motor +
+                "\nroda=" + roda +
+                "\nporta=" + porta ;
+    }   
 
 
 }

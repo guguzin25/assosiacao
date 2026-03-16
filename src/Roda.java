@@ -24,9 +24,9 @@ public class Roda {
     }
 
     public String toString() {
-        return "aro=" + aro +
-                ", parafusos=" + parafusos +
-                '}';
+        return "\naro=" + aro +
+                "\nparafusos=" + parafusos ;
+                
     }
 
 }
