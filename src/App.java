@@ -8,7 +8,6 @@ public class App {
 
         Veiculo veiculo = new Veiculo("ABC-1234", "Vermelho", motor, roda, porta);
 
-        System.out.println(veiculo);
 
 
     }
