@@ -24,6 +24,11 @@ public class Motor {
         this.tipoCombustivel = tipoCombustivel;
     }
 
-    
+    public String toString() {
+        return "Motor{" +
+                "potencia=" + potencia +
+                ", tipoCombustivel='" + tipoCombustivel + '\'' +
+                '}';
+    }
 
 }
